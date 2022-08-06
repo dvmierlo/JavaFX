@@ -1,5 +1,5 @@
 # How to setup JavaFX with Eclipse on Mac M1
-These instructions are written by me to help other developers that start with JavaFX and for my own documentation. I use a Mac Mini M1 (2020) with 16GB RAM and MacOS 12.5. I use <a href="https://www.eclipse.org/downloads/packages/" target="_blank">Eclipse</a> IDE for Enterprise Java and Web Developers.
+These instructions are written to help other developers that start with JavaFX and for my own documentation purposes. I use a Mac Mini M1 (2020) with 16GB RAM and MacOS 12.5. I use <a href="https://www.eclipse.org/downloads/packages/" target="_blank">Eclipse</a> IDE for Enterprise Java and Web Developers.
 
 ## Install OpenJDK 11 for Mac M1
 1. Download the JDK from <a href="https://bell-sw.com/pages/downloads/#/java-11-lts" target="_blank">Bellsoft - Liberica Standard JDK 11</a>.
