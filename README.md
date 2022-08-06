@@ -85,7 +85,3 @@ Run the application. Nothing seems to happen.
 12. Do **not** check the option `Use the -XstartOnFirstThread argument when launching with SWT`.
 
 Run the application again and a blank window is shown.
-
-## How to fully uninstall Eclipse
-See:
-- <a href="https://nektony.com/how-to/uninstall-eclipse-on-mac#uninstall_eclipse_plugin_from_app" target="_blank">Nektony - Uninstall Eclipse on a Mac</a>
