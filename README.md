@@ -69,7 +69,7 @@ See:
 2. Select JavaFX > JavaFX Project.
 3. Set the project name.
 4. Set Use a project specific JRE to `JDK [Liberica 11.0.16]`.
-5. Do **not** check the Module option `Create module-ino.java file`.
+5. Do **not** check the Module option `Create module-info.java file`.
 6. Next
 7. Open the Libraries tab.
 8. Select `Modulepath` and add the user library `JavaFX [18.0.2]`.
