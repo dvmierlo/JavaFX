@@ -1,4 +1,10 @@
+---
+title: How to setup JavaFX with Eclipse on Mac M1
+author: Dennis van Mierlo
+date: 06-08-2022
+---
 # How to setup JavaFX with Eclipse on Mac M1
+These instructions are written by me to help other developers that start with JavaFX and for my own documentation. I use a Mac Mini M1 (2020) with 16GB RAM and MacOS 12.5. I use <a href="https://www.eclipse.org/downloads/packages/" target="_blank">Eclipse</a> IDE for Enterprise Java and Web Developers.
 
 ## Install OpenJDK 11 for Mac M1
 1. Download the JDK from <a href="https://bell-sw.com/pages/downloads/#/java-11-lts" target="_blank">Bellsoft - Liberica Standard JDK 11</a>.
@@ -60,9 +66,11 @@ sudo chown -R root /Library/Java/JavaFX
 3. Add a new user library `JavaFX [18.0.2]`. Do **not** check the option `system library (added to the boot class path)`.
 4. Add all the JARs in the the folder `/Library/Java/JavaFX/javafx-sdk-18.0.2/lib`.
 
-See:
-- YouTube - <a href="https://www.youtube.com/watch?v=mUbORGu-z6Q" target="_blank">How to add JavaFX to Eclipse (the easy way!)</a>
-- Pragmatic Ways - <a href="https://pragmaticways.com/how-to-add-javafx-to-eclipse-the-easy-way" target="_blank">How to add JavaFX to Eclipse (the easy way)</a>
+### Optional JavaFX JDK Configuration
+1. For each added JAR:
+   1. Expand the JAR
+   2. Set the external location for the Source attachment to the folder `/Library/Java/JavaFX/javafx-sdk-18.0.2/src`.
+   3. Set the Javadoc location path for the Javadoc URL to `file:/Library/Java/JavaFX/javafx-18.0.2-javadoc`.
 
 ## Create a new JavaFX project
 1. In Eclipse: File > New > Other...
@@ -85,3 +93,11 @@ Run the application. Nothing seems to happen.
 12. Do **not** check the option `Use the -XstartOnFirstThread argument when launching with SWT`.
 
 Run the application again and a blank window is shown.
+
+## How to uninstall Eclipse
+See:
+- <a href="https://nektony.com/how-to/uninstall-eclipse-on-mac#uninstall_eclipse_plugin_from_app" target="_blank">Nektony - Uninstall Eclipse on a Mac</a>
+
+
+---
+_06-08-2022 Dennis van Mierlo_
